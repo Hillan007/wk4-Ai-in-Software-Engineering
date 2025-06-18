@@ -1,0 +1,21 @@
+
+Python Function to Sort a List of Dictionaries by a Specific Key
+
+##Here’s an AI-suggested implementation using Python’s built-in sorted() function:
+from operator import itemgetter
+
+ def sort_dicts_by_key(data, key):
+    return sorted(data, key=itemgetter(key))
+
+
+##Manual Implementation
+A manual approach using a lambda function:
+def sort_dicts_by_key_manual(data, key):
+    return sorted(data, key=lambda x: x[key])
+
+
+##Efficiency Comparison
+Both implementations achieve the same result, but the AI-suggested version using itemgetter() is slightly more efficient.
+- Performance: itemgetter() is optimized at the C level, making it marginally faster than a lambda function.
+- Readability: The AI-suggested version is more concise and avoids unnecessary function calls.
+- Flexibility: Both methods work for sorting dictionaries, but itemgetter() is preferable when sorting large datasets.
