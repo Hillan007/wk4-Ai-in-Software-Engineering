@@ -1,0 +1,11 @@
+Addressing Bias in Your Predictive Model
+Potential Biases in the Dataset
+Bias in predictive models often stems from imbalanced datasets, where certain groups or categories are underrepresented. In a company setting, this could mean:
+- Underrepresented teams: If historical data favors certain departments, predictions may skew toward their success, disadvantaging smaller or newer teams.
+- Skewed hiring trends: If past hiring data reflects biases (e.g., favoring certain demographics), the model may reinforce these patterns.
+- Limited diversity in training data: If the dataset lacks varied perspectives, predictions may not generalize well across different employee groups.
+How IBM AI Fairness 360 Helps
+IBM’s AI Fairness 360 (AIF360) toolkit provides a structured approach to detecting and mitigating bias:
+- Bias detection: AIF360 offers metrics to analyze fairness across different groups, identifying disparities in predictions.
+- Bias mitigation: It applies pre-processing, in-processing, and post-processing techniques to adjust data and model behavior.
+- Transparency & accountability: The toolkit helps companies document fairness improvements, ensuring ethical AI deployment.
