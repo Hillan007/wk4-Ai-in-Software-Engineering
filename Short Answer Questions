@@ -1,0 +1,13 @@
+Q1: AI-Driven Code Generation Tools and Their Impact on Development Time
+AI-powered code generation tools like GitHub Copilot significantly reduce development time by automating repetitive coding tasks, suggesting relevant code snippets, and even generating entire functions based on natural language prompts. These tools help developers focus on higher-level logic rather than writing boilerplate code, leading to faster prototyping and implementation.
+However, they have limitations:
+- They may generate inefficient or suboptimal code.
+- Security vulnerabilities can be overlooked, requiring manual review.
+- They struggle with creative problem-solving and require clear instructions from developers.
+Q2: Supervised vs. Unsupervised Learning in Automated Bug Detection
+Supervised learning relies on labeled datasets where the AI is trained on examples of known bugs. This approach is highly accurate but requires extensive labeled data. It excels in detecting previously encountered issues but may struggle with novel bugs.
+Unsupervised learning, on the other hand, identifies anomalies without prior labeling. It can detect unknown or emerging bugs by recognizing deviations from normal patterns. While more adaptable, it may produce false positives and requires careful tuning.
+Q3: Importance of Bias Mitigation in AI-Driven Personalization
+Bias mitigation is critical in AI-driven user experience personalization because biased algorithms can reinforce stereotypes, exclude certain user groups, or create unfair outcomes. AI systems learn from historical data, which may contain biases, leading to skewed recommendations or discriminatory experiences.
+By implementing bias mitigation strategies, developers can ensure AI-driven personalization is fair, transparent, and inclusive, fostering better user trust and engagement.
+
